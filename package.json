@@ -1,0 +1,39 @@
+{
+  "name": "@npmjank/jankstrap",
+  "version": "1.0.0",
+  "description": "",
+  "author": {
+    "name": "npmjank"
+  },
+  "license": "ISC",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gitJank/jankstrap.git"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0"
+  },
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.4.1",
+    "@material-ui/icons": "^4.4.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.39.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "webpack-cli": "^3.3.8"
+  }
+}
