@@ -1,7 +1,7 @@
 {
   "name": "@npmjank/jankstrap",
   "version": "1.0.0",
-  "description": "",
+  "description": "Custom material-ui based react components.",
   "author": {
     "name": "npmjank"
   },
@@ -12,7 +12,8 @@
     "url": "https://github.com/gitJank/jankstrap.git"
   },
   "peerDependencies": {
-    "react": "^16.9.0"
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
   },
   "scripts": {
     "start": "webpack --watch",
